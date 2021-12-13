@@ -5,7 +5,7 @@ import TextField from "@material-ui/core/TextField";
 import Autocomplete from "@material-ui/lab/Autocomplete";
 import IconButton from "@material-ui/core/IconButton";
 import SearchIcon from "@material-ui/icons/Search";
-import { anyFoodDishes } from "../constants";
+import { anyFoodDishes } from "./../constants";
 
 const AnyFoodDishes = ({ getData }) => {
   const [query, setQuery] = useState();

@@ -26,7 +26,7 @@ const SearchFoodDishes = () => {
           <PredefinedFoodDishes getData={getData} setHits={setHits} />
         </Grid>
       </div>
-      { hits && <FoodDishes hits={ hits } /> }
+      {hits && <FoodDishes hits={hits} />}
     </Fragment>
   );
 };
